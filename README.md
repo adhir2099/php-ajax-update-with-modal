@@ -9,7 +9,7 @@ Update records on modal with ajax. The form is responsive.
 # Database 
 * employee.sql
 
-``sql
+```sql
 DROP TABLE IF EXISTS `employees`;
 
 CREATE TABLE `employees` (
@@ -20,7 +20,7 @@ CREATE TABLE `employees` (
   `age` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
-``
+```
 
 ## Libraries included
 * Bootstrap v4
