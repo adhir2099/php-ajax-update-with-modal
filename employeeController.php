@@ -76,15 +76,14 @@ if($_POST["action"] == "Select"){
 if($_POST["action"] == "Update"){
     
     $statement = $connect->prepare("UPDATE employees SET name = :name, address = :address, gender = :gender, age = :age WHERE id = :id ");
-    $result = $statement->execute(
-        array(
-            ':id'      => $_POST["id"],
-            ':name'    => $_POST["name"],
-            ':address' => $_POST["address"],
-            ':gender'  => $_POST["gender"],
-            ':age'     => $_POST["age"]
-        )
-    );
+    
+    $statement->bindParam(':id', $_POST["id"]);
+    $statement->bindParam(':name', $_POST["name"]);
+    $statement->bindParam(':address', $_POST["address"]);
+    $statement->bindParam(':gender', $_POST["gender"]);
+    $statement->bindParam(':age', $_POST["age"]);
+
+    $result = $statement->execute();
 
     if(!empty($result)){
         echo 'recordUpdated';

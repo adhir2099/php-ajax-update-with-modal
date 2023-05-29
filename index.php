@@ -31,10 +31,6 @@
             </div>
         </footer>
 
-        <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Update records on modal with ajax © 2022</small></div>
-        </div>
-
         <!-- MODAL CREATE -->
         <div id="employeeModal" class="modal fade" data-keyboard="false" data-backdrop="static">
             <div class="modal-dialog">
