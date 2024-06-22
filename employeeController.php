@@ -7,7 +7,8 @@ if(isset($_POST["action"])){
     //Load data
     if($_POST["action"] == "Load"){
 
-        $statement = $connect->prepare("SELECT * FROM employees ORDER BY name ASC");
+        $qry = "SELECT * FROM employees ORDER BY name ASC";
+        $statement = $connect->prepare($qry);
         $statement->execute();
         $result = $statement->fetchAll();
         $output = '';

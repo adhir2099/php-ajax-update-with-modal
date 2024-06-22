@@ -1,9 +1,9 @@
 <html>  
     <head>
-        <title>Update records on modal with ajax</title>
+        <title>Update records within modal with ajax</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="author" content="Adhirsaurio" />
+        <meta name="author" content="adhir2099" />
         <meta name="description" content="Update records on modal with ajax" />
         <link href="assets/css/styles.css" rel="stylesheet" />
         <script src="assets/js/jquery.min.js"></script>
@@ -25,7 +25,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <p class="lead mb-0">Update records on modal with ajax <a href="https://github.com/adhirsaurio?tab=repositories"><i class="fab fa-github-alt"></i></a></p>
+                        <p class="lead mb-0">Update records on modal with ajax <a href="https://github.com/adhir2099?tab=repositories"><i class="fab fa-github-alt"></i></a></p>
                     </div>
                 </div>
             </div>
